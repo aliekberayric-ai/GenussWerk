@@ -1,0 +1,24 @@
+{
+  "events": [
+    {
+      "id": "wedding",
+      "title": { "de": "Hochzeit", "en": "Wedding", "tr": "Düğün" },
+      "subtitle": { "de": "Elegant & festlich", "en": "Elegant & festive", "tr": "Şık ve özel" }
+    },
+    {
+      "id": "business",
+      "title": { "de": "Business", "en": "Business", "tr": "Kurumsal" },
+      "subtitle": { "de": "Meetings & Firmenevents", "en": "Meetings & company events", "tr": "Toplantı & etkinlik" }
+    },
+    {
+      "id": "fair",
+      "title": { "de": "Messe", "en": "Fair", "tr": "Fuar" },
+      "subtitle": { "de": "Schnell & praktisch", "en": "Fast & practical", "tr": "Hızlı & pratik" }
+    },
+    {
+      "id": "birthday",
+      "title": { "de": "Geburtstag", "en": "Birthday", "tr": "Doğum Günü" },
+      "subtitle": { "de": "Bunt & gemütlich", "en": "Fun & cozy", "tr": "Neşeli & samimi" }
+    }
+  ]
+}

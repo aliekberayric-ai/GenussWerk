@@ -1,0 +1,47 @@
+{
+  "items": [
+    {
+      "id": "mezze",
+      "section": "appetizers",
+      "name": { "de": "Meze-Platte", "en": "Meze platter", "tr": "Meze tabağı" },
+      "desc": { "de": "Hummus, Ezme, Dolma & mehr", "en": "Hummus, ezme, dolma & more", "tr": "Humus, ezme, dolma ve daha fazlası" },
+      "priceEUR": 4.5,
+      "image": "/uploads/mezze.jpg"
+    },
+    {
+      "id": "adana",
+      "section": "mains",
+      "name": { "de": "Adana Kebab", "en": "Adana kebab", "tr": "Adana kebap" },
+      "desc": { "de": "Würzig gegrillt, mit Beilagen", "en": "Spicy grilled, with sides", "tr": "Acılı ızgara, yanında" },
+      "priceEUR": 9.9,
+      "image": "/uploads/adana.jpg"
+    },
+    {
+      "id": "baklava",
+      "section": "desserts",
+      "name": { "de": "Baklava", "en": "Baklava", "tr": "Baklava" },
+      "desc": { "de": "Mit Pistazien", "en": "With pistachio", "tr": "Antep fıstıklı" },
+      "priceEUR": 3.2,
+      "image": "/uploads/baklava.jpg"
+    },
+
+    {
+      "id": "delivery_fee",
+      "section": "extras",
+      "name": { "de": "Anfahrt", "en": "Delivery fee", "tr": "Teslimat ücreti" },
+      "desc": { "de": "Einmalig", "en": "One-time", "tr": "Tek seferlik" },
+      "priceEUR": 25,
+      "pricingMode": "flat",
+      "image": "/uploads/delivery.jpg"
+    },
+    {
+      "id": "extra_dessert",
+      "section": "extras",
+      "name": { "de": "Extra Dessert", "en": "Extra dessert", "tr": "Ek tatlı" },
+      "desc": { "de": "Nur für manche Gäste", "en": "Only for some guests", "tr": "Sadece bazı misafirler için" },
+      "priceEUR": 2.2,
+      "pricingMode": "perSelectedPersons",
+      "image": "/uploads/extra-dessert.jpg"
+    }
+  ]
+}

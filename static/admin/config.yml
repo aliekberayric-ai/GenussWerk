@@ -1,0 +1,78 @@
+backend:
+  name: github
+  # ✅ HIER anpassen: "username/repo"
+  repo: aliekberayric-ai/GenussWerk
+  branch: main
+
+# Uploads landen im Repo
+media_folder: "static/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "menu"
+    label: "Menu Items"
+    files:
+      - file: "src/lib/data/menu.json"
+        label: "Menu JSON"
+        name: "menujson"
+        fields:
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.id}}"
+            fields:
+              - { label: "ID", name: "id", widget: "string" }
+              - label: "Section"
+                name: "section"
+                widget: "select"
+                options: ["appetizers", "mains", "desserts", "extras"]
+              - label: "Name"
+                name: "name"
+                widget: "object"
+                fields:
+                  - { label: "DE", name: "de", widget: "string" }
+                  - { label: "EN", name: "en", widget: "string" }
+                  - { label: "TR", name: "tr", widget: "string" }
+              - label: "Description"
+                name: "desc"
+                widget: "object"
+                required: false
+                fields:
+                  - { label: "DE", name: "de", widget: "string", required: false }
+                  - { label: "EN", name: "en", widget: "string", required: false }
+                  - { label: "TR", name: "tr", widget: "string", required: false }
+              - { label: "Price EUR", name: "priceEUR", widget: "number", value_type: "float", min: 0 }
+              - { label: "Image", name: "image", widget: "image", required: false }
+              - label: "Pricing Mode (extras only)"
+                name: "pricingMode"
+                widget: "select"
+                required: false
+                options: ["perSelectedPersons", "perPerson", "flat"]
+
+  - name: "events"
+    label: "Events"
+    files:
+      - file: "src/lib/data/events.json"
+        label: "Events JSON"
+        name: "eventsjson"
+        fields:
+          - label: "Events"
+            name: "events"
+            widget: "list"
+            summary: "{{fields.id}}"
+            fields:
+              - { label: "ID", name: "id", widget: "string" }
+              - label: "Title"
+                name: "title"
+                widget: "object"
+                fields:
+                  - { label: "DE", name: "de", widget: "string" }
+                  - { label: "EN", name: "en", widget: "string" }
+                  - { label: "TR", name: "tr", widget: "string" }
+              - label: "Subtitle"
+                name: "subtitle"
+                widget: "object"
+                fields:
+                  - { label: "DE", name: "de", widget: "string" }
+                  - { label: "EN", name: "en", widget: "string" }
+                  - { label: "TR", name: "tr", widget: "string" }
