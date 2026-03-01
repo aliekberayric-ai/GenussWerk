@@ -3,7 +3,7 @@
   import { t } from "../stores/i18n";
   import { formatEUR } from "../utils/money";
 
-  const sectionKey: Record<string, string> = {
+  const sectionKey = {
     appetizers: "sections.appetizers",
     mains: "sections.mains",
     desserts: "sections.desserts",
