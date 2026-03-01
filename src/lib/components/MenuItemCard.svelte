@@ -4,8 +4,7 @@
   import { t } from "../stores/i18n";
   import { formatEUR } from "../utils/money";
 
-  export let item: MenuItem;
-
+  export let item;
   // Zustand aus dem Store
   $: selected = !!$order.selections[item.id];
   $: sel = $order.selections[item.id];
