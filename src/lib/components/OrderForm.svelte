@@ -18,7 +18,7 @@ eventsData.events : [];
 
   // ✅ HIER eintragen:
   const TARGET_EMAIL = "aliekberayric@gmail.de";
-  const WHATSAPP_NUMBER = "4915561363071; // ohne Plus, z.B. 49...
+  const WHATSAPP_NUMBER = "4915561363071"; // ohne Plus, z.B. 49...
 
   // Eventlabel für Text
   $: eventLabel = (() => {
