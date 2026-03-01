@@ -13,7 +13,7 @@
     { id: "mains", key: "sections.mains" },
     { id: "desserts", key: "sections.desserts" },
     { id: "extras", key: "sections.extras" }
-  ] as const;
+  ];
 
   let active: any = "appetizers";
 
