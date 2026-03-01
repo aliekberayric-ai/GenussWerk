@@ -15,7 +15,7 @@
     { id: "extras", key: "sections.extras" }
   ];
 
-  let active any = "appetizers";
+  let active: any = "appetizers";
 
   // Kategorie aus URL setzen
   $: eventId = $page.url.searchParams.get("event");
