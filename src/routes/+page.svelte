@@ -22,7 +22,7 @@
 
     <div style="display:flex; gap:10px; margin-top:12px; flex-wrap:wrap;">
       <a class="btn primary" href="#events">{$t("landing.start")}</a>
-      <a class="btn" href="/admin">{$t("common.admin")}</a>
+      <a class="btn" href="admin">{$t("common.admin")}</a>
     </div>
 
     <div style="margin-top:12px; display:flex; gap:10px; flex-wrap:wrap;">
