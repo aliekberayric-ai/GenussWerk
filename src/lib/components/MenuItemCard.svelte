@@ -79,7 +79,7 @@
             step="0.1"
             inputmode="decimal"
             value={sel?.qtyPerPerson ?? 1}
-            on:input={(e) => setQty(item.id, Number((e.target as HTMLInputElement).value))}
+            on:input={(e) => setQty(item.id, Number(e.target.value))}
           />
         {/if}
 
