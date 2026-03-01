@@ -93,7 +93,7 @@
             min="1"
             step="1"
             value={sel?.selectedPeople ?? $order.people}
-            on:input={(e) => setSelectedPeople(item.id, Number((e.target as HTMLInputElement).value))}
+            on:input={(e) => setSelectedPeople(item.id, Number(e.target.value))}
           />
         {/if}
 
