@@ -10,7 +10,8 @@
     extras: "sections.extras"
   };
 
-  function roundNice(n: number) {
+  function roundNice(n) {
+    const x = Number(n) || 0;
     return (Math.round(n * 100) / 100).toString();
   }
 </script>
