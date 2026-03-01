@@ -1,5 +1,6 @@
 <script lang="ts">
-  import { order, toggleItem, setQty, setSelectedPeople, type MenuItem } from "../stores/order";
+  import { order, toggleItem, setQty, setSelectedPeople} from "../stores/order";
+  import type { MenuItem } from "../stores/order";
   import { t } from "../stores/i18n";
   import { formatEUR } from "../utils/money";
 
