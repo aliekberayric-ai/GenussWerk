@@ -4,7 +4,9 @@
   import { t } from "../stores/i18n";
   import { buildOrderText } from "../utils/orderText";
 
-  const events = (eventsData as any).events as any[];
+  const events = 
+Array.isArray(eventsData?.events) ?
+eventsData.events : [];
 
   // Formfelder (Frontend-only)
   let name = "";
